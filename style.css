@@ -10,12 +10,21 @@ body{
     margin: 20px auto;
 }
 
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+
 #calculator {
     width: 320px;
     height: 550px;
     background: #eaedef;
     margin: 0 auto;
-    top: 50px;
+    top: 3rem;
+    bottom: 3rem;
     position: relative;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
