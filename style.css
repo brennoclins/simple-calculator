@@ -45,6 +45,10 @@ body{
     font-weight: 600;
 }
 
+.empty {
+   visibility: hidden; 
+}
+
 .operator, .number, .empty {
     width: 50px;
     height: 50px;
